@@ -6,6 +6,9 @@
   height: 75%;
   /* top: 12%; */
  }
+ .block{
+   display: block
+ }
  html,
  body {
    overflow: hidden;
