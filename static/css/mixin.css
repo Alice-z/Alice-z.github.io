@@ -25,6 +25,7 @@
   text-transform: uppercase;
   margin: 10px 0;
   left: 4px;
+  cursor: pointer;
  }
  a {
   color: #999;
