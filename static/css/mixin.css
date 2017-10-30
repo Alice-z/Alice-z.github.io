@@ -1,44 +1,53 @@
  .line::before {
   content: '';
-  border-left: 5px solid #f66;
+  border-left: 0.5rem solid #f66;
   position: relative;
-  /* left: -5px; */
+  left: -0.5rem;
   height: 75%;
   /* top: 12%; */
  }
  .block{
    display: block
  }
- html,
- body {
-   overflow: hidden;
-   margin: 0;
-   font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
-   color: #333;
- }
- h1 {
-  position: relative;
-  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 700;
-  font-size: 30px;
-  letter-spacing: 9px;
-  text-transform: uppercase;
-  margin: 10px 0;
-  left: 4px;
+.fr{
+  float: right
+}
+.btn {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
   cursor: pointer;
- }
- a {
-  color: #999;
-  text-decoration: none;
-  transition: color .2s ease;
-  cursor: pointer
+  background: #fff;
+  border: 1px solid #bfcbd9;
+  border-color: #c4c4c4;
+  color: #1f2d3d;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 4px;
 }
-a:hover {
- color: #f33;
-}
-p {
- font-size: 14px;
- line-height: 2em;
- margin: 0;
- letter-spacing: 2px;
+.ipt {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 4px;
+  border: 1px solid #bfcbd9;
+  box-sizing: border-box;
+  color: #1f2d3d;
+  display: inline-block;
+  font-size: inherit;
+  height: 36px;
+  line-height: 1;
+  outline: none;
+  padding: 3px 10px;
+  transition: border-color .2s cubic-bezier(.645,.045,.355,1);
 }
